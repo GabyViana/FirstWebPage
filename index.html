@@ -1,0 +1,208 @@
+<!-- DOCTYPE - Declaración de archivo tipo HTML -->
+<!DOCTYPE html>
+<!-- lang lenguaje del sitio -->
+<html lang="en">
+<!-- HEAD (metadata) - infor para el navegador -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetas.com</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/2240/2240730.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+  </head>
+<!-- body - lo que ve el usualix -->
+<style>A {text-decoration: none;}</style>
+<body>
+    <header>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/128/2240/2240730.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                Planetas.com
+              </a>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- MAIN - Contenido principal-->
+    <main>
+        <h1 class="titulo">Los Planetas del Sistema Solar</h1>
+        <!--Indice con Anclas-->
+       
+        <div class="indice">
+            <a  class="ind" href="#mer1">Mercurio</a>
+            <br>
+            <a class="ind" href="#ven1">Venus</a>
+            <br>   
+            <a class="ind" href="#tie1">Tierra</a>
+            <br>
+            <a class="ind" href="#mar1">Marte</a>
+            <br>
+            <a class="ind" href="#jup1">Jupiter</a>
+            <br>
+            <a class="ind" href="#sat1">Saturno</a>
+            <br>
+            <a class="ind" href="#ura1">Urano</a>
+            <br>
+            <a class="indi" href="#nep1">Neptuno<br>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+           
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Imagenes/PLANETAS2.jpg" class="d-block w-100" alt="..." >
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Planetas</h5>
+                  <p>Planetas vistos de Saturno al Sol</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://th.bing.com/th/id/R.16f583f455179898915d1b6b86f5a066?rik=DyXr45MBhu9AnQ&riu=http%3a%2f%2fapod.nasa.gov%2fapod%2fimage%2f0307%2fhd70642_pparc_big.jpg&ehk=9jy7pI9408Q6ZoLW8i%2f9uS2P5NqsQo7%2bppoURCTYrgM%3d&risl=&pid=ImgRaw&r=0" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lunas</h5>
+                  <p>Vista de Jupiter</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Imagenes/descarga (1).jfif" class="d-block w-100" alt="..." >
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Planetas</h5>
+                  <p>Planetas</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- DIV - Crear divisiones -->
+        <div class="lista-planetas">
+          <h3>Lista de planetas en orden del mas cercano al sol al mas alejado</h3>
+            <!-- UL - Listas no ordenadas-->
+            <ul class="lisnom">
+                <li>Mercurio</li>
+                <li> Venus </li>
+                <li> Tierra </li>
+                <li> Marte </li>
+                <li> Jupiter </li>
+                <li> Saturno </li>
+                <li> Urano </li>
+                <li>Neptuno</li>
+            </ul>  
+        </div>
+        
+        <Section class="row">
+              <div class="col1">
+                Mercurio
+              </div>
+              <div class="col">
+                Mercurio es el planeta más cercano al Sol y el más pequeño del sistema solar. Recibe su nombre en honor al dios romano Mercurio, que era el mensajero de los dioses y el dios del comercio y los viajeros. A pesar de su proximidad al Sol, explorar y estudiar Mercurio ha sido un desafío para la ciencia debido a las difíciles condiciones a las que se enfrenta.
+              </div>
+              <div class="col">
+                <img src="Imagenes/mercury-planet-PhotoRoom.png-PhotoRoom.png" alt="" height="200px">
+              </div>
+        </Section>
+        
+        <Section class="row">
+          <div class="col1">
+            Venus
+          </div>
+          <div class="col">
+            <img src="Imagenes/AW_Venus_nli6oy.webp" alt="" height="200px">
+          </div>
+          <div class="col">
+            Es conocido como el "planeta hermano" de la tierra debido a su tamaño similar. Es el segundo planeta más cercano al Sol y tiene una atmósfera densa compuesta principalmente de dióxido de carbono. Es extremadamente caliente, con una temperatura promedio de alrededor de 450 grados Celsius, y su superficie está cubierta de volcanes y llanuras rocosas.
+          </div>
+        </Section>
+     
+        <Section class="row">
+          <div class="col1">
+            Tierra
+          </div>
+          <div class="col">
+            Es nuestro hogar y el único planeta conocido que alberga vida. Tiene una atmósfera rica en oxígeno y una superficie diversa que incluye océanos, continentes, montañas y una variedad de ecosistemas. Es el tercer planeta desde el Sol y cuenta con una amplia gama de condiciones climáticas y habitabilidad.
+          </div>
+          <div class="col">
+            <img src="Imagenes/R-PhotoRoom.png-PhotoRoom.png" alt="" height="200px">
+          </div>
+        </Section>
+            
+        <Section class="row">
+          <div class="col1">
+            Marte
+          </div><div class="col">
+            <img src="Imagenes/R (1)-PhotoRoom.png-PhotoRoom.png" alt="" height="200px">
+          </div>
+          <div class="col">
+            También conocido como el "Planeta Rojo", es el cuarto planeta desde el Sol. Tiene una delgada atmósfera compuesta principalmente de dióxido de carbono. La superficie muestra signos de erosión y cuenta con montañas, cañones y enormes volcanes. Hay evidencia de que en el pasado pudo haber tenido agua líquida en su superficie.
+          </div>
+        </Section>   
+
+        <Section class="row">
+          <div class="col1">
+            Jupiter
+          </div>
+          <div class="col">
+            Es el planeta más grande del sistema solar y el quinto desde el Sol. Es un gigante gaseoso compuesto principalmente de hidrógeno y helio. Tiene una atmósfera turbulenta con bandas de nubes y presenta una gran mancha roja, que es una tormenta gigante. También tiene una serie de lunas, siendo las cuatro más grandes conocidas como las lunas galileanas: Ío, Europa, Ganimedes y Calisto.
+          </div>
+          <div class="col">
+            <img src="Imagenes/Jup.png" alt="" height="200px">
+          </div>
+        </Section>
+
+        <Section class="row">
+          <div class="col1">
+            Saturno
+          </div><div class="col">
+            <img src="Imagenes/saturn_resize_md-PhotoRoom.png-PhotoRoom.png" alt="" height="200px">
+          </div>
+          <div class="col">
+            Saturno es famoso por sus impresionantes anillos, que están compuestos principalmente de partículas de hielo y rocas. Es el sexto planeta desde el Sol y es otro gigante gaseoso. Saturno tiene una atmósfera similar a la de Júpiter y también cuenta con una serie de lunas, siendo la más destacada Titán, la segunda luna más grande del sistema solar.
+          </div>
+        </Section>
+
+        <Section class="row">
+          <div class="col1">
+            Urano
+          </div>
+          <div class="col">
+            Es un gigante gaseoso que se encuentra en la séptima posición desde el Sol. Es conocido por su característico color azul verdoso, causado por la presencia de metano en su atmósfera. Urano tiene anillos al igual que Saturno, aunque son mucho menos visibles. También tiene numerosas lunas, entre las que se destaca Miranda.
+          </div>
+          <div class="col">
+            <img src="Imagenes/urano.png" alt="" height="200px">
+          </div>
+        </Section>
+
+        <Section class="row">
+          <div class="col1">
+            Neptuno
+          </div>
+          <div class="col">
+            <img src="Imagenes/neptuno-PhotoRoom.png-PhotoRoom.png" alt="" height="200px">
+          </div>
+          <div class="col">
+            Es el octavo y último planeta reconocido en el sistema solar. Es otro gigante gaseoso, similar a Júpiter y Saturno, y tiene una atmósfera compuesta principalmente de hidrógeno y helio, con trazas de metano que le dan un color azul intenso. Neptuno tiene vientos muy fuertes y cuenta con lunas y anillos. Su luna más notable es Tritón, que se cree que es un objeto capturado por la gravedad de Neptuno.
+          </div>
+        </Section>
+
+    </main>
+
+    <footer>
+      <div class="derechos-de-autor">Creado por Gabriela Viana (2023) &#169;</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

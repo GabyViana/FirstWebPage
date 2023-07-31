@@ -1,0 +1,105 @@
+body{
+    background-color: #a375bde5;
+    font-family: 'Playfair Display', sherif;
+    align-items: normal;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    padding: 0;
+}
+
+header nav .container-fluid {
+    background-color: #823B83;
+}
+
+header nav .navbar-brand {
+    color: rgb(241, 231, 137);
+    font-size: 35px;
+}
+
+main{
+    padding: 0PX;
+    background-color: antiquewhite;
+}
+main .titulo{
+    font-size: 100px;
+    color: #823B83;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+main .indice {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline blue;
+}
+
+main .indice .indi {
+    font-size: 20px;
+}
+
+main .indice .ind {
+    margin-right: 40px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+main .carousel-inner {
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+
+main .lista-planetas {
+    color: #823B83;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main .lista-planetas .lisnom {
+    color: black;
+    text-decoration: none;
+}
+
+.title- {
+    font-size: 40px;
+    color: rgb(90, 59, 107);
+    text-decoration: none;
+}
+
+.discripcion {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: justify;
+    padding: 15px;
+}
+
+.merr {
+    background-color: #823b8359;
+}
+
+.row {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.col1 {
+    font-size: 30px;
+    color: white;
+    background-color: #823B83;
+    margin-bottom: 10px;
+    font-family: lobster, cursive;
+}
+
+footer {
+    background-color: #b956bb;
+    height: 80px;
+    font-size: medium;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
